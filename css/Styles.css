@@ -1,0 +1,80 @@
+/* Nuevo estilo general para SnapShot */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f1ee;
+    color: #3e2723;
+  }
+  
+  header {
+    background-color: #5d4037;
+    color: white;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #d7ccc8;
+  }
+  
+  button, input[type="submit"] {
+    font-family: 'Poppins', sans-serif;
+    background-color: #8d6e63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover, input[type="submit"]:hover {
+    background-color: #6d4c41;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .container, .profile-container, .timeline-container, .form-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+  }
+  
+  .card, .profile-card, .post {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+  }
+  
+  h2, h3 {
+    color: #5d4037;
+  }
+  
